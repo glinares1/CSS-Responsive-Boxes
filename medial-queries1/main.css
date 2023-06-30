@@ -1,13 +1,11 @@
 body {
-  background: rgb(237, 146, 9);
-  
+  background: blanchedalmond;
 }
 h1{
-  color: black;
   text-align: center;
-  padding: 30px;
+  padding: 10px;
+  font-size: 50px;
   margin: auto;
-  font-size: 3vw;
 }
 .container{
   display: flex;
@@ -15,26 +13,26 @@ h1{
   justify-content: space-between;
   min-height: 100vh; 
 }
-.row{
-  min-height: 70vh;
+.row
+{
+   min-height: 80vh;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
- }
-.pix{
-  border: 2px purple;
+  flex-direction: row;
+}
+.apple{
+border: 2px dotted purple;
   margin: 30px;
   min-height: 25vh;
 }
 .balooga{
-  border: 2px purple;
+  border: 2px dotted purple;
   flex:60%;
   margin: 30px;
-  min-height: 50vh;
+  min-height: 60vh;
 }
 .cat{
-  border: 2px purple;
-  flex: 40%;
+   border: 2px dotted purple;
+  flex: 20%;
   margin: 30px;
-  min-height: 20vh;
 }
