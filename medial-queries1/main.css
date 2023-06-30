@@ -1,3 +1,40 @@
 body {
-  background: blanchedalmond;
+  background: rgb(237, 146, 9);
+  
+}
+h1{
+  color: black;
+  text-align: center;
+  padding: 30px;
+  margin: auto;
+  font-size: 3vw;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh; 
+}
+.row{
+  min-height: 70vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+ }
+.pix{
+  border: 2px purple;
+  margin: 30px;
+  min-height: 25vh;
+}
+.balooga{
+  border: 2px purple;
+  flex:60%;
+  margin: 30px;
+  min-height: 50vh;
+}
+.cat{
+  border: 2px purple;
+  flex: 40%;
+  margin: 30px;
+  min-height: 20vh;
 }
