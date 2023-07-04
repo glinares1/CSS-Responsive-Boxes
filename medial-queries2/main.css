@@ -1,3 +1,56 @@
 body {
   background: papayawhip;
 }
+h1{
+  text-align: center;
+  padding: 10px;
+  font-size: 50px;
+  margin: auto;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  min-height: 100vh; 
+}
+.responsive{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.dos{
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex:70%;
+  min-height: 70vh;
+}
+.third{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+.apple{
+  border: 2px dotted purple;
+  margin: 10px;
+  min-height: 10vh;
+}
+.balooga{
+  border: 2px dotted purple;
+  margin: 10px;
+  min-height: 45vh;
+}
+.cat, .donkey, .eel{
+  border: 2px dotted purple;
+ flex: 20%;
+ min-height: 20vh;
+ margin: 10px;
+}
+.fony{
+  border: 2px dotted purple;
+ flex: 20%;
+ margin: 10px;
+}
